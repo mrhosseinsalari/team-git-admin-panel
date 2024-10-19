@@ -12,8 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      maxWidth: {
+        containerWidth: "1920px",
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
