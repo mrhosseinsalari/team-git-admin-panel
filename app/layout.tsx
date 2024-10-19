@@ -1,6 +1,11 @@
+import { FC, ReactNode } from "react";
 import "./globals.css";
 
-const RootLayout = ({ children }: { children: React.ReactNode }) => {
+interface Props {
+  children: ReactNode;
+}
+
+const RootLayout: FC<Props> = ({ children }) => {
   return (
     <html lang="en">
       <body>{children}</body>
