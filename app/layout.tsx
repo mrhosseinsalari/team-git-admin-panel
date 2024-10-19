@@ -7,7 +7,7 @@ interface Props {
 
 const RootLayout: FC<Props> = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang="fa" dir="rtl">
       <body>{children}</body>
     </html>
   );
